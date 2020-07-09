@@ -1,0 +1,74 @@
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+  background-color: rgb(239, 239, 239);
+}
+.header .container {
+  height: 80px;
+}
+.header__logo-block {
+  display: flex;
+  align-items: center;
+}
+.header__logo-link {
+  height: 36px;
+  width: 109px;
+}
+.header__menu {
+  display: flex;
+}
+.header__menu ul {
+  display: flex;
+  padding-inline-start: 0;
+  margin-right: 15px;
+}
+.header__menu ul li {
+  list-style: none;
+  margin-left: 1rem;
+}
+.header__menu ul li a {
+  text-decoration: none;
+  font-weight: 450;
+  color: rgb(105, 105, 105);
+  transition: all 0.2s ease-in;
+  padding: 0.5rem;
+}
+.header__menu ul li a:hover {
+  background-color: #000;
+  color: #f5f5f5 !important;
+  padding: 0.5rem;
+  border-radius: 30px;
+}
+.header__btn-class {
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 0.3125rem 1px;
+  padding: 12px 30px;
+  position: relative;
+  font-size: 12px;
+  min-width: auto;
+  box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+  min-height: auto;
+  text-align: center;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  touch-action: manipulation;
+  border-radius: 3px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background-color: #999;
+}
+.cart:hover {
+  background: transparent !important;
+}

@@ -1,0 +1,110 @@
+.home__search-bar {
+  padding: 10px 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: 1px 0 10px -5px #a5a5a5;
+  height: 70px;
+}
+.content {
+  margin-top: 480px;
+}
+.home__search-bar__options {
+  width: auto;
+  text-align: center;
+  color: #a5a5a5;
+  text-decoration: none;
+}
+.home__search-bar__options-mode {
+  color: #996515;
+  text-align: center;
+}
+.home__search-bar__options-sub {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.home__search-bar__type-select {
+  display: inline-block;
+  position: relative;
+}
+.home__search-bar__type-select-marker {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #026764;
+  -webkit-transition: width 0.2s, -webkit-transform 0.4s;
+  transition: width 0.2s, -webkit-transform 0.4s;
+  transition: transform 0.4s, width 0.2s;
+  transition: transform 0.4s, width 0.2s, -webkit-transform 0.4s;
+}
+.home__search-bar__type-select-item {
+  display: inline-block;
+  cursor: pointer;
+}
+.home__search-bar__type-select-seperator {
+  color: #a5a5a5;
+  margin: 0 6px;
+}
+.home__search-bar__no-address {
+  margin-top: 5px;
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 10px;
+  background-color: #996515;
+  color: #fff;
+}
+.home__search-bar__divider {
+  display: inline-block;
+  height: 30px;
+  width: 2px;
+  margin: 0 10px;
+  background-color: #d7d7d7;
+}
+.home__search-bar__search {
+  margin: 0 1.5rem;
+  flex: 1 1;
+}
+.home__search-bar__product-search {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #d7d7d7;
+  border-radius: 30px;
+  min-width: 300px;
+  width: 100%;
+  height: 45px;
+}
+.home__search-bar__input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex: 1 1;
+  padding-left: 10px;
+}
+.home__search-bar__input-wrapper input {
+  border: none;
+  background-color: transparent;
+  padding-right: 10px;
+  width: 100%;
+  color: #000;
+  outline: none;
+  font-size: 15px;
+}
+.search-icon {
+  background-color: #026764;
+  fill: #fff !important;
+  border-radius: 0 30px 30px 0;
+  padding: 6px;
+  width: 70px !important;
+  height: 33px !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
